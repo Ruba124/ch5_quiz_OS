@@ -110,7 +110,7 @@ function calculateScore() {
     document.getElementById('results').classList.remove('hidden');
     
     const feedback = document.getElementById('feedback');
-    if (score === 50) feedback.innerText = "Master of Scheduling! Ruba, you are ready for the exam!";
+    if (score === 50) feedback.innerText = "Master of Scheduling!, you are ready for the exam!";
     else if (score > 40) feedback.innerText = "Excellent! You have a solid understanding of Chapter 5.";
     else feedback.innerText = "Good effort! Review the Multilevel Feedback Queue and Pthread sections.";
     
