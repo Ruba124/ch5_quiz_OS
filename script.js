@@ -38,7 +38,7 @@ const quizData = [
 
     // --- 15 HARD QUESTIONS ---
     { q: "In the multilevel feedback queue example, where does a new job enter?", a: ["Q0", "Q1", "Q2", "The Kernel"], c: 0, exp: "A new job enters queue Q0 served FCFS with quantum 8.", slide: 25 },
-    { q: "What happens if a job in Q0 does not finish in 8ms in the feedback model?", a: ["Terminated", "Moved to Q1", "Re-enters Q0", "Moved to Q2"], c: 1, exp: "If it doesn't finish, it is moved to queue Q1.", slide: 25 },
+    { q: "What happens if a job in Q0 does not finish in q(Quantum time) of Q0 in the feedback model?", a: ["Terminated", "Moved to Q1", "Re-enters Q0", "Moved to Q2"], c: 1, exp: "If it doesn't finish, it is moved to queue Q1.", slide: 25 },
     { q: "What is the scheduling algorithm for the final queue (Q2) in the feedback example?", a: ["RR", "SJF", "FCFS", "Priority"], c: 2, exp: "The last queue Q2 uses FCFS.", slide: 25 },
     { q: "When threads are supported, what does the OS schedule?", a: ["Processes", "Threads", "LWPs", "Cores"], c: 1, exp: "When threads are supported, threads are scheduled, not processes.", slide: 26 },
     { q: "On systems with many-to-many models, what does the thread library schedule user threads onto?", a: ["CPU", "Registers", "LWPs", "Main memory"], c: 2, exp: "The library schedules user-level threads onto LWPs.", slide: 26 },
